@@ -218,7 +218,7 @@ export default class Sketch{
 
         this.material2.uniforms.uTime.value = this.clock.getElapsedTime();
 
-        this.time += 0.004;
+        this.time += 0.002;
 
         this.mesh2.position.y = 0.3;
         this.finalMesh.position.y = 0.3;        

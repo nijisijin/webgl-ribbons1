@@ -37961,7 +37961,7 @@ class Sketch {
 
   render() {
     this.material2.uniforms.uTime.value = this.clock.getElapsedTime();
-    this.time += 0.004;
+    this.time += 0.002;
     this.mesh2.position.y = 0.3;
     this.finalMesh.position.y = 0.3;
     this.renderer.render(this.scene, this.camera);
@@ -38007,7 +38007,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56611" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56766" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
