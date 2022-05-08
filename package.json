@@ -1,0 +1,26 @@
+{
+  "name": "webgl-ribbons1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^4.1.11",
+    "three": "^0.140.0"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "devDependencies": {
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.2"
+  }
+}
