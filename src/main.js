@@ -220,8 +220,8 @@ export default class Sketch{
 
         this.time += 0.002;
 
-        this.mesh2.position.y = 0.3;
-        this.finalMesh.position.y = 0.3;        
+        this.mesh2.position.y = 0.7;
+        this.finalMesh.position.y = 0.7;        
      
 		this.renderer.render( this.scene, this.camera );
 		requestAnimationFrame(this.render.bind(this))
